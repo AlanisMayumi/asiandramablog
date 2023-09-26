@@ -1,6 +1,8 @@
-import logo from "./assets/logo.svg";
+import { ThemeProvider } from "@mui/material";
+import theme from "./theme";
+
 function App() {
-  return <></>;
+  return <ThemeProvider theme={theme}></ThemeProvider>;
 }
 
 export default App;
