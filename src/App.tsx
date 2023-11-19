@@ -1,6 +1,7 @@
-import logo from "./assets/logo.svg";
+import Home from "./pages/Home";
+
 function App() {
-  return <></>;
+  return <Home />;
 }
 
 export default App;
