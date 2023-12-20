@@ -1,9 +1,11 @@
 import Box from "@mui/material/Box";
-import Layout from "../components/Layout";
+import Layout from "../../components/Layout";
 
 const Home = () => (
   <Box>
-    <Layout />
+    <Layout>
+        
+    </Layout>
   </Box>
 );
 
